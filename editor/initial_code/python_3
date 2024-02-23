@@ -3,7 +3,7 @@ def completar_caderneta(dados):
     return None
 
 print("Example:")
-print(completar_caderneta([10, 20, 6, 2, -1])
+print(completar_caderneta([10, 20, 6, 2, -1]))
 
 # As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
 
