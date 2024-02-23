@@ -1,18 +1,18 @@
 <!-- Describe task in general -->
 
 <p>
-    {{ENUNCIADO}}
+    Joana encontrou uma caderneta antiga na sala de troféus do clube de futebol pelo qual torce, contendo resultados de todos os campeonatos que o time participou. Cada anotação na caderneta informa cinco dados de um campeonato: número de jogos, pontos, vitórias, empates e derrotas. Alguns números estão ilegíveis (-1), mas podem ser computados usando os números legíveis. Ajude Joana a completar as informações da caderneta.
 </p>
 
 
 
 <!-- Explain input and output values -->
 <p>
-    <strong>Entrada </strong> {{ENTRADA}}
+    <strong>Entrada </strong> Uma lista contendo cinco inteiros J, P, V, E e D, representando, respectivamente, o número de jogos, o número de pontos, o número de vitórias, o número de empates e o número de derrotas em um campeonato. Um ou dois desses números podem ser -1, indicando que são ilegíveis.
 </p>
 
 <p>
-    <strong>Saída: </strong> {{SAIDA}}
+    <strong>Saída: </strong> Uma lista com cinco inteiros, os valores corrigidos da caderneta para o campeonato, na ordem: número de jogos, pontos, vitórias, empates e derrotas. As equações J = V+E+D = 3 e P = 3V+E devem ser satisfeitas.
 </p>
 
 
@@ -28,7 +28,10 @@ countConsecutiveSummers(99) == 6
 </pre>
 {% else %}
 <pre class="brush: python">
-    {{EXEMPLOS}}
+    completar_caderneta([10, 20, 6, 2, -1]) >> [10, 20, 6, 2, 2]
+completar_caderneta([-1, 64, 18, 10, 10]) >> [38, 64, 18, 10, 10]
+completar_caderneta([-1, 47, 14, -1, 9]) >> [28, 47, 14, 5, 9]
+
 </pre>
 {% endif %}
 </div>
